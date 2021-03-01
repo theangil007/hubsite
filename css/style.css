@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swa');
+@import url('https://fonts.googleapis.com/css?Open+Sans&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main-background {
+    background-image:url('../images/background.jpg'); /*****BACKGROUND IMAGE LINK FOR HOME PAGE*****/
+    background-size: cover;
+    height:100vh;
+    width:100%;
+}
+.top-navbar ul {
+    float:right;
+    list-style: none;
+    margin-right:130px;
+    margin-top:25px;
+}
+.top-navbar li {
+    display: inline-block;
+}
+.top-navbar a {
+    text-decoration: none;
+    color:#000;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+.top-navbar a:hover {
+    font-color:white;
+    border: 2px solid #B914F3;
+    padding:5px 20px;
+    border-radius:8px;
+}
+.header-logo img {
+height:80px;
+width:70px;
+margin-left:130px;
+margin-top:10px;
+}
+.logo-text {
+position: absolute;
+top:7%;
+left:14.5%;
+color:white;
+font-size:20px;
+letter-spacing: 1px;
+font-family: 'Open Sans', sans-serif;
+}
+.box1 {
+    position: relative;
+    left:115%;
+    height: 40px;
+    width:300px;
+    outline: none;
+    border-radius: 25px 25px 25px 25px;
+    border:none;
+    padding-left:20px;
+}
+.search-btm {
+    position: relative;
+    background: rgb(232,140,41);
+    background: linear-gradient(180deg, rgba(232,140,41,1) 17%, rgba(99,185,217,1) 78%);
+    left:115%;
+    height:45px;
+    width:150px;
+    outline: none;
+    border-radius: 25px 25px 25px 25px;
+    color:white;
+    border:none;
+}
+.main-content-text {
+    position: absolute;
+    top:40%;
+    left:13%;
+    transform: translate(-45%.-13%);
+}
+.main-content-text h2 {
+    color:white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: 'Asap', sans-serif;
+}
+.main-content-text p {
+    margin-top:10px;
+    text-align: justify;
+    color:#9F9EA0;
+    width:320px;
+    margin-bottom: 15px;
+}
+.right-logo img {
+    float:right;
+    position: absolute;
+    top:40%;
+    right:10%;
+    transform: translate(-45%,-15%);
+    height:250px;
+}
+.btm1 {
+    background: linear-gradient(270deg, rgba(236,133,33,1) 56%, rgba(85,123,205,1) 86%);
+    padding: 15px 60px;
+    text-align: center;
+    border-radius: 8px;
+    border:none;
+    outline:none;
+    color:#fff;
+}
+.btm1:hover {
+    box-shadow:0px 0px 16px 8px #55318F;
+}
+.solution-btm2 {
+    position: absolute;
+    top:65%;
+    left:26%;
+    border: 2px solid #fff;
+    background: transparent;
+    padding: 14px 50px;
+    text-align: center;
+    border-radius: 8px;
+    color:#fff;
+}
